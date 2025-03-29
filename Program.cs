@@ -1,0 +1,12 @@
+﻿Console.WriteLine("Escreva o valor de sua capital.");
+double x = Convert.ToDouble(Console.ReadLine()!);
+Console.WriteLine("Escreva o valor da taxa de juros.");
+double y = Convert.ToDouble(Console.ReadLine()!);
+Console.WriteLine("Escreva o valor do tempo ( Meses ).");
+double z = Convert.ToDouble(Console.ReadLine()!);
+double j; 
+double m;
+j = x * y * z  / 100;
+m = x + j; 
+Console.WriteLine($"Juros: {j}");
+Console.WriteLine($"total: {m}");
